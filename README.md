@@ -9,4 +9,5 @@ Recipes in here will work with Amazon EC2, given:
 
 # BERKS
 
-Remember to delete metadata.json
+* Remember to delete metadata.json
+* Sometimes you ought to run `berks upload` twice in a row to get past errors.
