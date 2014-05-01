@@ -11,4 +11,4 @@ Recipes in here will work with Amazon EC2, given:
 
 * Remember to delete metadata.json
 * Sometimes you ought to run `berks upload` twice in a row to get past errors.
-* Flow: change version in metadata.rb, berks install, berks upload
+* Flow: change version in metadata.rb, berks install, berks upload versionone 
