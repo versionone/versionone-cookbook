@@ -9,7 +9,7 @@ Recipes in here will work with Amazon EC2, given:
 Command:
 
 ```
-bundle exec knife ec2 server create -I ami-97b58ffe -G windows_desktop_test -f m1.large --ebs-size 75 --ebs-optimized
+knife ec2 server create -I ami-97b58ffe -G windows_desktop_test -f m1.large --ebs-size 75 --ebs-optimized
 --bootstrap-protocol winrm --user-data ./bootstrapWindows.ps1 -x v1deploy -P Versi0n1.c26nu -r versionone
 ```
 
